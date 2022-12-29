@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    /* flex-direction: column-reverse; */
+    background-color: rgb(255, 206, 190);
+    min-height: 400px;
+    align-items: center;
+    /* horizontal alignment */
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    /* justify-content: flex-start; */
+    /* align-item is used for vertical alignment */
+    /* align-items: flex-end; */
+    /* column */
+    /* justify-content will be used for vertical */
+    /* align-items: for horizontal alignment */
+    /* flex-direction: column; */
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+/* child selector */
+/* it will select all the divs inside the container */
+.container div {
+    max-width: 250px;
+    border: 1px solid  #111;
+    padding: 10px;
+    /* flex: 1; */
+    /* flex-grow: ; */
+    /* flex-shrink: ; */
+    /* flex-basis: ; */
+}
+img {
+    max-width: 250px;
+    border-radius: 10%;
+}

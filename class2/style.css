@@ -1,0 +1,44 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+    max-width: 1140px;
+    margin: auto;
+}
+.circle {
+    width: 228px;
+    height: 228px;
+    margin: 60px -44px 0 auto;
+    color: #ffffff;
+    background-color: #e81922;
+    border-radius: 50%;
+    position: relative;
+}
+.flex {
+    display: flex;
+}
+.flex .img {
+    height: 457px;
+    width: 457px;
+    /* margin-top: -560px; */
+    margin-left: 32px;
+    object-position: 100% 50%;
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/5a39ba5980cb5f2681f9b5db/fgfgfg.jpg);
+    background-position: 50% 50%;
+    /* margin: -661px auto 0 81px; */
+    border-radius: 50% !important;
+    object-fit: cover;
+    display: block;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+}
+.box {
+    background-color: #f1f1;
+    
+}
