@@ -1,0 +1,52 @@
+.roxane-main {
+    display: flex;
+    gap: 30px;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap; */
+    /* flex-flow: column nowrap; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: flex-end; */
+    min-height: 600px;
+    background-color: aqua;
+    align-items: stretch;
+    /* align-items: center; */
+    /* align-content: center; */
+}
+div {
+    max-width: 300px;
+    border: 1px solid red;
+    /* min-height: 450px; */
+    /* min-width: 50%; */
+    /* align-self: center; */
+}
+.col2 {
+    align-self: center;
+    order: 1;
+
+}
+.col1 {
+    order: 3;
+}
+.col3 {
+    order: 2;
+}
+img {
+    max-width: 300px;
+}
+
+div {
+    /* width 1px */
+    /* style solid */
+    /* green color */
+    /* border: 1px solid green; */
+
+}
+.parent {
+    display: flex;
+    gap: 30px;
+    /* justify-content: center; */
+    justify-content: space-between;
+}
